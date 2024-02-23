@@ -64,3 +64,19 @@ const details = {
 }
 
 console.log(details.newAddress.name?.firstName);
+
+
+const min = num => Math.min(num);
+console.log(min([1, 3, 2]));
+
+const { a, b, c } = { x: 2, y1: 3, z: 9 };
+console.log(c);
+
+const nums2 = [1, 2, 3, 4, 5];
+let output = nums2.filter(n => n % 2);
+console.log(output);
+
+const product = { name: 'laptop', price: 2332 };
+const { price} = product;
+
+console.log(`price is : ${price}`);
