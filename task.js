@@ -47,3 +47,7 @@ console.log(sum);
 const total = instructor.reduce((sum, current) => sum + current.age, 0);
 
 console.log('total is : ', total);
+
+
+
+
