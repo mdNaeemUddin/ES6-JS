@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Practicing</title>
+
+    <style>
+        .post{
+            background: lightskyblue;
+            padding: 2rem;
+            margin: 1.2rem;
+            border-radius: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    
+    <header> </header>
+
+    <main>
+        <section>
+            <button onclick="loadData()">Load Data</button>
+            <button onclick="loadData()">Load Data 2</button>
+            <button onclick="loadUser()">Users</button>
+            <button onclick="user()">Another User</button>
+        </section> <br>
+        <section>
+            <button onclick="createpost()">Create Post</button>
+            <button onclick="putPost()">Put Post</button>
+            <button onclick="deletePost()">delete Post</button>
+            <button onclick="patchPost()">patch Post</button>
+        </section>
+        <div>
+            <ol id="user-list" type="1">
+
+            </ol>
+        </div>
+        <div>
+            <h1>
+                All Post Here : 
+            </h1>
+            <div id="post">
+
+            </div>
+           
+        </div>
+        
+    </main>
+
+    <footer></footer>
+
+
+    <!-- scripts -->
+    <script src="json.js"></script>
+    <script src="app.js"></script>
+    <script src="post.js"></script>
+   
+</body>
+</html>
